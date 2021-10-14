@@ -1,6 +1,17 @@
+body{
+    background-image: url("../images/portfolio-img.jpg");
+
+}
+
+
+
 header{
     position: -webkit-sticky;
     position: sticky;
-    background-image: url("../images/portfolio-img.jpg");
+    color: white;
+    font-size: 35px;
+}
 
+header h1{
+    font-size: 55px;
 }
