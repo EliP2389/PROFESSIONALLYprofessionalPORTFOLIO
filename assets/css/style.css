@@ -1,17 +1,68 @@
+:root{
+    --primary-color: white;
+    --secondary-color: lime;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     background-image: url("../images/portfolio-img.jpg");
-
 }
 
-
-
+/*apply style to header*/
 header{
+    color: var(--primary-color);
     position: -webkit-sticky;
     position: sticky;
-    color: white;
-    font-size: 35px;
+    top: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px 35px;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-position: 80%;
+    z-index: 9999;
 }
 
-header h1{
-    font-size: 55px;
+header h1 {
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+    font-size: 36px;
+    color: var(--primary-color);
+    margin: 0;
+    } 
+    
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding:  10px 15px;
+    font-weight: bolder;
+    font-size: 1.55vw;
 }
+    
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a:hover {
+    color: var(--secondary-color);
+    border-radius: 15px;
+    text-shadow: none;
+  }
+
