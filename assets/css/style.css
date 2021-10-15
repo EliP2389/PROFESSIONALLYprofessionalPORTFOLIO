@@ -66,3 +66,15 @@ header nav ul li a:hover {
     text-shadow: none;
   }
 
+.hero{
+
+}
+
+  section div{
+    color: var(--primary-color);
+}
+
+section div img{
+    width: 350px;
+    height: 350px;
+}
