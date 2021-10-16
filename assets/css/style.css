@@ -1,15 +1,15 @@
 :root{
-    --primary-color: white;
-    --secondary-color: lime;
+    --primary-color: rgb(0, 0, 0);
+    --secondary-color: rgb(0, 195, 255);
 
 }
 
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    border: border-box;
 }
-
+/* body style */
 body{
     background-image: url("../images/portfolio-img.jpg");
 }
@@ -20,7 +20,7 @@ header{
     position: -webkit-sticky;
     position: sticky;
     top: 0;
-    flex-wrap: wrap;
+    flex: wrap;
     justify-content: space-between;
     display: flex;
     padding: 20px 35px;
@@ -32,7 +32,7 @@ header{
 }
 
 header h1 {
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     font-weight: bold;
     font-size: 36px;
     color: var(--primary-color);
@@ -42,7 +42,7 @@ header h1 {
 header a {
     text-decoration: none;
     color: var(--primary-color);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     padding:  10px 15px;
     font-weight: bolder;
     font-size: 1.55vw;
@@ -65,24 +65,43 @@ header nav ul li a:hover {
     border-radius: 15px;
     text-shadow: none;
   }
+
+ /* style all section tags */
+ section{
+     padding: 60px;
+ } 
 /* HERO STYLING */
 .hero{
-    border: 2px solid red;
-    color: var(--secondary-color);
+    background-attachment: fixed;
+    color: var(--primary-color);
     background-image: url(../images/cool-img.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.yes{
+    margin: 3.5%;
+}
+
+.yes h2{
+    font-size: 50px;
 }
 
 .yes p{
     display: flex;
+    font-size: 25px;
+    line-height: 1.3;
 }
 
-.live{
-    display: flex;
+.fly{
+    font-weight: bolder;
 }
 
 .live img{
     width: 350px;
-    height: 350px;
+    height: 500px;
 }
 
 /* ABOUT STYLING */
