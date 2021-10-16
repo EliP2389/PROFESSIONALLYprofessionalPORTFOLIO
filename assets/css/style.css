@@ -67,14 +67,11 @@ header nav ul li a:hover {
   }
 
 .hero{
-
-}
-
-  section div{
+    border: 3px solid lime;
     color: var(--primary-color);
 }
 
-section div img{
+div img{
     width: 350px;
     height: 350px;
 }
