@@ -121,7 +121,7 @@ header nav ul li a:hover {
 .bio{
     border-left: 6px solid rgb(0, 0, 0);
     display: flex;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 1.2;
     padding: 0 30px;
 }
@@ -130,10 +130,9 @@ header nav ul li a:hover {
 .portfolio{
     display: flex;
     margin: 3.5%;
-    justify-content: space-evenly;
 }
 
-.portfolio h3{
+.works{
     font-size: 45px;
     padding-right: 30px;
     align-items: center;
@@ -145,40 +144,30 @@ header nav ul li a:hover {
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
+    font-size: 35px;
+    padding: 0 30px;
     justify-content: space-around;
 }
 
-.box-1{
-    flex: 1;
-    font-size: 35px;
-    padding: 0 30px;
-}
-
-.box-1 img{
+.portfolios img{
     border-radius: 15px;
     border: 5px solid var(--primary-color);
     width: 550px;
     height: 176px;
 }
 
-.box-1 img:hover{
+.portfolios img:hover{
     border: 5px solid var(--secondary-color);
 }
 
-.box-2{
-    flex: 1;
-    font-size: 35px;
-    padding: 0 30px;
-}
-
-.box-2 img{
+.portfolios img{
     border-radius: 15px;
     border: 5px solid var(--primary-color);
     width: 550px;
     height: 176px;
 }
 
-.box-2 img:hover{
+.portfolios img:hover{
     border: 5px solid var(--secondary-color);
 }
 
@@ -215,5 +204,32 @@ address{
         font-size: 25px;
     } 
 
+    .portfolios{
+        width: 100%;
+    }
+}
 
+@media all and (max-width: 768px){
+    .portfolios{
+        padding: 30px 15px;
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 575px){
+    .portfolios{
+        flex: 0 100%;
+    }
+    
+    address{
+        font-size: 20px;
+    }
+
+    .me{
+        font-size: 20px;
+    }
+
+    .bio{
+        font-size: 12px;
+    }
 }
