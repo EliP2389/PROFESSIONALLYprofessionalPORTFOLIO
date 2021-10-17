@@ -115,6 +115,7 @@ header nav ul li a:hover {
 }
 
 .about{
+    display: flex;
     font-size: 45px;
     padding-right: 30px;
     
@@ -125,6 +126,7 @@ header nav ul li a:hover {
     display: flex;
     font-size: 25px;
     line-height: 1.2;
+    padding: 0 30px;
 }
 
 /* PORTFOLIO STYLING */
@@ -142,28 +144,38 @@ header nav ul li a:hover {
 }
 
 .box-2{
+    flex: 1;
     font-size: 35px;
+    padding: 0 30px;
 }
 
-.box-2:hover{
-    border: 4px solid var(--secondary-color);
+.box-2 img{
+    border-radius: 15px;
+    border: 5px solid var(--primary-color);
+    width: 550px;
+    height: 176px;
+}
+
+.box-2 img:hover{
+    border: 5px solid var(--secondary-color);
 }
 
 .box-3{
     flex: 1;
     font-size: 35px;
+    padding: 0 30px;
 }
 
 .box-3 img{
+    border-radius: 15px;
+    border: 5px solid var(--primary-color);
     width: 550px;
     height: 176px;
 }
 
-.box-3:hover{
-    border: 4px solid var(--secondary-color);
+.box-3 img:hover{
+    border: 5px solid var(--secondary-color);
 }
-
-
 
 /*CONTACT STYLING */
 .contact{
