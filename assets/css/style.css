@@ -128,48 +128,36 @@ header nav ul li a:hover {
 
 /* PORTFOLIO STYLING */
 .portfolio{
+    margin: 20px;
     display: flex;
-    margin: 3.5%;
 }
+   
 
 .works{
     font-size: 45px;
-    padding-right: 30px;
-    align-items: center;
     border-right: 6px solid rgb(0, 0, 0);
+    padding-right: 30px;
+}
+
+.box-2 img{
+    width: 525px;
+    height: 200px;
+}
+
+.box-3 img{
+    width: 525px;
+    height: 200px;
 }
 
 .portfolios{
+    font-size: 25px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    font-size: 35px;
-    padding: 0 30px;
     justify-content: space-around;
 }
 
-.portfolios img{
-    border-radius: 15px;
-    border: 5px solid var(--primary-color);
-    width: 550px;
-    height: 176px;
-}
-
-.portfolios img:hover{
-    border: 5px solid var(--secondary-color);
-}
-
-.portfolios img{
-    border-radius: 15px;
-    border: 5px solid var(--primary-color);
-    width: 550px;
-    height: 176px;
-}
-
-.portfolios img:hover{
-    border: 5px solid var(--secondary-color);
-}
 
 /*CONTACT STYLING */
 .contact{
