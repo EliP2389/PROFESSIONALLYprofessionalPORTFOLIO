@@ -9,4 +9,3 @@ and using every day to keep building on my current knowledge.
 * CSS
 
 ## Website
- https://elip2389.github.io/PROFESSIONALLYprofessionalPORTFOLIO/
