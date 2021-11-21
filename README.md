@@ -36,4 +36,4 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queri
 https://bulma.io/documentation/columns/
 
 ## Website
- https://elip2389.github.io/PROFESSIONALLYprofessionalPORTFOLIO/
+ 
