@@ -30,10 +30,10 @@ THEN I am presented with a responsive layout that adapts to my viewport
 <img src="./assets/images/eli-img.png" >
 
 ## Sites used for reference
-https://www.youtube.com/watch?v=JJSoEo8JSnc
-https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox
-https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_types
+https://www.youtube.com/watch?v=JJSoEo8JSnc <br>
+https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox <br>
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries#media_types <br>
 https://bulma.io/documentation/columns/
 
 ## Website
- 
+ https://elip2389.github.io/PROFESSIONALLYprofessionalPORTFOLIO/
