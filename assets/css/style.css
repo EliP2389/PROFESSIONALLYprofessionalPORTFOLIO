@@ -109,27 +109,9 @@ header nav ul li a:hover {
     width: 350px;
     height: 500px;
 }
-
-/* ABOUT STYLING */
-.About{
-    display: flex;
-    margin: 3.5%;
-}
-
-.me{
-    display: flex;
-    font-size: 45px;
-    padding-right: 30px;
-    
-}
-
-.bio{
-    border-left: 6px solid rgb(0, 0, 0);
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 30px;
-    line-height: 1.2;
-    padding: 0 30px;
+/* about section */
+.about {
+    font-size: 75px;
 }
 
 /* PORTFOLIO STYLING */
@@ -137,15 +119,6 @@ header nav ul li a:hover {
     font-size: 75px;
 }
 
-
-
-/* .portfolios{
-    font-size: 25px;
-    width: 100%;
-    margin: 0 auto;
-    flex-wrap: wrap;
-    justify-content: space-around;
-} */
 
 
 /*CONTACT STYLING */
